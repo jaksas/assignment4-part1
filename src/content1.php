@@ -2,14 +2,11 @@
 
 $filePath = explode('/', $_SERVER['PHP_SELF'], -1);
 $filePath = implode('/', $filePath); 
+$content1 = "http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']; 
 $login = "http://".$_SERVER['HTTP_HOST'].$filePath."/login.php"; 
 $content2 = "http://".$_SERVER['HTTP_HOST'].$filePath."/content2.php"; 
 
 session_start();
-
-function foo() {
-	echo "foo";
-}
 
 if(!isset ($_POST['username']) && $_SESSION['username'] == null) {
 	header("Location: {$login}");

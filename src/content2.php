@@ -2,6 +2,7 @@
 $filePath = explode('/', $_SERVER['PHP_SELF'], -1);
 $filePath = implode('/', $filePath); 
 $content1 = "http://".$_SERVER['HTTP_HOST'].$filePath."/content1.php";
+$login = "http://".$_SERVER['HTTP_HOST'].$filePath."/login.php"; 
 
 echo 'Click ';
 echo "<a href={$login}>here</a>";
