@@ -14,6 +14,18 @@ Description: In order to return true, must receive four correctly
 */
 function testInput() {
 	
+	$mults = array('min-multiplicand', 'max-multiplicand', 
+			'min-multiplier', 'max-multiplier'); 
+				
+	//Test that each parameter exists and is correctly labelled 
+	foreach ($mults as $key) {
+		if(!isset($_GET[$key])) {
+			echo "Following parameters required: 'min-multiplicand', 
+				'max-multiplicand', 'min-multiplier', 'max-multiplier'"; 
+			return false;	
+		}
+	}
+		
 	foreach ($_GET as $key => $value) {
 		//Test to see if each parameter key has a value 
 		if ($value == NULL) {
