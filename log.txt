@@ -1,0 +1,19 @@
+Steve Jaksa
+Assignment 4-Part 1
+Work Log
+CS 290
+2-8-2015
+ 
+Start: Wed, 4 Feb 2015 18:06:28 -0600
+End: Wed, 4 Feb 2015 22:05:06 -0600
+Tasks: multtable.php finished - checks input and displays table correctly
+	Completed loopback.php
+
+Start: Wed, 4 Feb 2015 23:06:56 -0600
+End: Thu, 5 Feb 2015 02:26:40 -0600
+Tasks: login.php and content1.php created; sends back to login without username; 
+	posting correctly and storing username in _SESSION
+
+Start: Thu, 5 Feb 2015 12:13:01 -0600
+End: Thu, 5 Feb 2015 14:08:09 -0600
+Tasks: Everything completed and commented. Ran through lint on FLIP as well. 
